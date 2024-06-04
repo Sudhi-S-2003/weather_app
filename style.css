@@ -1,0 +1,40 @@
+body{
+    background: url(img/weather3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-box{
+    display: flex;
+
+    padding:25% ;
+    padding-top:5%;
+    width: 50%;
+    height: 50px;
+}
+h1{
+    text-align: center;
+}
+input{
+    flex: 1;
+    padding: 20px;   
+}
+button{
+    background-color: green;
+    width: 100px;
+}
+button:hover{
+    background-color: #3e8e41;
+}
+.details{
+background-color: rgba(34, 32, 32, 0.5);
+margin-left: 30%;
+min-width: 200px;
+color: wheat;
+width: 25%;
+height: 300px;
+padding: 30px;
+text-align: center;
+margin-top: -20%;
+text-transform: capitalize;
+word-wrap:break-word;
+}
